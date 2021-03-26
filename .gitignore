@@ -1,2 +1,4 @@
 /loaded/
 /venv/
+.idea/
+__pycache__/
