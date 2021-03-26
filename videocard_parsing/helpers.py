@@ -1,4 +1,4 @@
-from constants import MAX_PRICE, AVAILABLE_STATUSES
+from videocard_parsing.constants import MAX_PRICE, AVAILABLE_STATUSES
 
 
 def is_cheaper_then_max(price):
