@@ -2,7 +2,7 @@ import json
 
 from itemadapter import ItemAdapter
 from scrapy.exceptions import DropItem
-from helpers import is_available, is_cheaper_then_max
+from videocard_parsing.helpers import is_available, is_cheaper_then_max
 
 
 class VideocardParsingPipeline:
