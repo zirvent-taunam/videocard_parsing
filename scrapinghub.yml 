@@ -1,0 +1,4 @@
+projects:
+  default: rozetka2
+requirements:
+  file: requirements.txt
