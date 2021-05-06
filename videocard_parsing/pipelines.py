@@ -20,7 +20,7 @@ class VideocardLocalParsingPipeline:
                 self.file.write(line)
                 return item
         else:
-            raise DropItem(f"Missing price in {item}")
+            raise DropItem(f"Missing price or item is not available")
 
 
 class VideocardCloudParsingPipeline:
@@ -30,4 +30,4 @@ class VideocardCloudParsingPipeline:
             if is_cheaper_then_max(adapter.get('price')) and is_available(adapter.get('availability')):
                 return item
         else:
-            raise DropItem(f"Missing price in {item}")
+            raise DropItem(f"Missing price or item is not available")
